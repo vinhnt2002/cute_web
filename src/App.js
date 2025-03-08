@@ -205,7 +205,7 @@ function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        Chúc mừng ngày 8/3!
+        Chúc mừng ngày 8/3, BOHUBO!
       </Title>
       
       <PuppyContainer
