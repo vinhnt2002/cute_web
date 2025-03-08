@@ -413,7 +413,7 @@ const MessageCard = ({ marginBottom }) => {
                                 repeatType: "reverse"
                             }}
                         >
-                            I Love You
+                            🥳
                         </motion.div>
                     </FinalMessage>
                 </FullscreenOverlay>
