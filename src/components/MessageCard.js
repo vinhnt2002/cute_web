@@ -180,13 +180,11 @@ const CustomHeart = ({ color }) => (
     </svg>
 );
 
-const messages = [
-    "Gửi đến người phụ nữ tuyệt vời nhất trong cuộc đời anh, em mang đến niềm vui và hạnh phúc cho mỗi ngày.",
-    "Nụ cười của em thắp sáng thế giới của anh, và tình yêu của em lấp đầy trái tim anh bằng sự ấm áp.",
-    "Vào ngày đặc biệt này, anh muốn em biết em có ý nghĩa như thế nào đối với anh.",
-    "Em không chỉ là bạn gái của anh, em là bạn thân nhất của anh, là người bạn tâm giao và là tất cả của anh.",
-    "Anh trân trọng từng khoảnh khắc chúng ta bên nhau, và anh mong muốn tạo ra nhiều kỷ niệm đẹp hơn nữa.",
-    "Chúc mừng Ngày Phụ nữ, tình yêu của anh! Em xứng đáng có được tất cả hạnh phúc trên thế giới này."
+const messages = [   
+  "Chúc mừng Ngày Phụ nữ đến những người đồng nghiệp tuyệt vời!",
+  "Cảm ơn bạn đã luôn mang lại năng lượng tích cực và niềm vui cho mọi người.",
+  "Chúc bạn luôn hạnh phúc, thành công và tràn đầy sức khỏe.",
+  "Ngày hôm nay là của bạn – tận hưởng nó thật trọn vẹn nhé!"
 ];
 
 // Then update the MessageCard component to accept and pass the prop:
@@ -214,7 +212,7 @@ const HeartRow = styled(motion.div)`
   align-items: center;
 `;
 
-const FinalMessage = styled(motion.div)`
+const FinalMessge = styled(motion.div)`
   font-size: 4rem;
   color: white;
   font-family: 'Pacifico', cursive;
